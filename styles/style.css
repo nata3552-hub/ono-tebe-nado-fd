@@ -1,1 +1,102 @@
 /* место для вашего кода */
+body {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center; 
+    height: 293px;
+    padding: 92px 50px 96px;
+    
+}
+.nav_list {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    list-style: circle;
+    text-underline-offset: 4px;
+    margin: 10px 44px 11px 1px;
+    
+    
+}
+.nav_list li:first-child {
+    list-style-type: none;
+}
+
+.circle_center{
+    padding-left: 3px;
+}
+.circle_right{
+    padding-left: 5px;
+}
+.logo {
+    width: 136px;
+    height: 104px;
+    
+    
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px 4px 192px ; 
+    width: 240px;
+    height: auto;
+    text-underline-offset: 4px;
+    gap: 5px;
+    font-style: normal;
+}
+.address_link{
+    line-height: 23px;
+    
+    font-style: normal;
+    transform: none;
+       
+}
+.cover {
+    position: relative;
+    padding: 170px 50px 50px;
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.overlay{
+    position: absolute;
+    background-color: black;
+    inset: 0;
+    opacity: 0.6;
+}
+
+.cover_tittle{
+    margin-bottom: 135px;
+    color: white;
+    font-size: 100px;
+    line-height: 1.15;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.cover_description{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 107px;
+    color: white;
+    position: relative;
+    z-index: 1;
+
+}
