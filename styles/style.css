@@ -11,9 +11,9 @@ body {
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
-    align-items: center; 
+    align-items: center;
     height: 293px;
-    padding: 92px 50px 96px; 
+    padding: 92px 50px 96px;
 }
 .header__links-list {
     display: flex;
@@ -21,7 +21,7 @@ body {
     gap: 32px;
     list-style: circle;
     text-underline-offset: 4px;
-    margin: 10px 44px 11px 1px;    
+    margin: 10px 44px 11px 1px;
 }
 .header__links-list li:first-child {
     list-style-type: none;
@@ -31,13 +31,13 @@ body {
 }
 .header__logo {
     width: 136px;
-    height: 104px; 
+    height: 104px;
 }
 
 .header__address {
     display: flex;
     flex-direction: column;
-    margin: 5px 0px 4px 192px ; 
+    margin: 5px 0px 4px 192px;
     width: 240px;
     height: auto;
     text-underline-offset: 4px;
@@ -79,7 +79,7 @@ body {
     text-align: left;
 }
 .aligned-text_center {
-    text-align: center;  
+    text-align: center;
 }
 .aligned-text_right {
     text-align: end;
@@ -235,7 +235,7 @@ body {
 .footer__address {
     display: flex;
     flex-direction: column;
-    margin: 4px 0px 0px 50px ; 
+    margin: 4px 0px 0px 50px;
     width: 264px;
     height: auto;
     text-underline-offset: 4px;
