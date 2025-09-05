@@ -12,166 +12,111 @@
   </head>
   <body>
     <header class="header">
-      <nav class="nav">
-        <ul class="nav_list">
-          <li><a class="text_decoration">главная</a></li>
-          <li><a href="">посмотреть лоты</a></li>
-          <li><a href="">об аукционе</a></li>
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li><a href="#" class="text_decoration">главная</a></li>
+          <li><a href="#">посмотреть лоты</a></li>
+          <li><a href="#">об аукционе</a></li>
       </ul>
       </nav>
       
-      <a href="#" class="logo">
-        <img src="./images/logo-black.svg" alt="черный логотип оно тебе надо" class="logo_black">
+      <a href="#" class="header__logo">
+        <img src="./images/logo-black.svg" alt="черный логотип оно тебе надо" class="header__logo-image">
       </a>
       <address class="address">
+        <div class="header__address">
       <a href="tel:+9 999 555 5555" class="address_tel">+9 999 555 5555</a>
       <a href="mailto:info@sobaka.ge" class="adress_mail">info@sobaka.ge</a>
       <a href="#" class="address_link text_decoration">наб. Принсенграхт 263- 265, Амстердам</a>
+        </div>
     </address>
     </header>
     <main class="main">
       <section class="cover">
         <div class="overlay"></div>
-        
-        <h1 class="cover_tittle">
-          <span class="aligned_text_left">ОНО</span>
-          <span class="aligned_text_center">ТЕБЕ</span>
-          <span class="aligned_text_right">НАДО</span>
+        <h1 class="cover_tittle aligned-text letter-spacing-extended">
+          <span class="aligned-text_left">ОНО</span>
+          <span class="aligned-text_center">ТЕБЕ</span>
+          <span class="aligned-text_right">НАДО</span>
         </h1>
           <div class="cover_description">
-            <p>Аукцион вещей, вкоторые никто не верил</p>
-            <button>Сделать ставку</button>
+            <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+            <button class="bet-button">Сделать ставку</button>
           </div>
       </section>
       <section class="lots">
-        <h2 class="heading">лоты</h2>
-        <ul class="card_list">
-          <li class="card_item">
-            <img src="./images/card-lot-01.jpg" alt="">
+        <h2 class="lots__heading">лоты</h2>
+        <ul class="lots__card-list">
+          <li class="lots__card-list-item card_type_film">
             <a href="#" class="card_link"> 
-              <article>
-                <h3 class="subtittle">режиссёра, который бросил киношколу</h3>
-                <p class="text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+              <article class="card">
+                <div class="overlay"></div>
+                <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+                <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
               </article>
             </a>
           </li>
-          <li class="card_item">
-            <img src="./images/card-lot-02.jpg" alt="">
+          <li class="lots__card-list-item card_type_book">
             <a href=".#" class="card_link"> 
-              <article>
-                <h3 class="subtittle">Книга, где описан один скучный день из жизни рекламного агента</h3>
-                <p class="text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+              <article class="card">
+                <div class="overlay"></div>
+                <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
               </article>
             </a>
           </li>
-          <li class="card_item">
-            <img src="./images/card-lot-03.jpg" alt="">
+          <li class="lots__card-list-item card_type_picture">
             <a href="#" class="card_link"> 
-              <article>
-                <h3 class="subtittle">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-                <p class="text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+              <article class="card">
+                <div class="overlay"></div>
+                <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                <p class="card__text ">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
               </article>
             </a>
           </li>
-
-
         </ul>
-        
+        <a href="#" class="more">
+          <div class="more__text">посмотреть больше</div>
+        </a>
       </section>
       <section class="about">
-        <div class="about_column_left">
-          <img src="./images/logo-white.svg" alt="логотип оно тебе надо" class="logo_white">
-        </div>
-        <div class="about_column_right">
-          <h2 class="heating">Об аукционе</h2>
-          <p class="text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
-          <p class="text">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
-        </div>
-        
+        <div class="about__column">
+            <div class="about__logo">
+             <img src="./images/logo-white.svg" alt="белый логотип оно тебе надо" class="about__logo-image">
+            </div>
+            <div>
+              <h2 class="about__title">Об аукционе</h2>
+              <div class="about__text">
+                <p>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
+                <p>Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
+              </div>
+            </div>
+          </div>
       </section>
 
     </main>
     <footer class="footer">
       <address class="address">
-       наб. Принсенграхт 263-265, Амстердам
-      <br>
+        <div class="footer__address">
       <a href="tel:+9 999 555 5555" class="address_tel">+9 999 555 5555</a>
       <a href="mailto:info@sobaka.ge" class="adress_mail">info@sobaka.ge</a>
+      <a href="#" class="address_link text_decoration">наб. Принсенграхт 263- 265, Амстердам</a>
+        </div>
     </address>
-      <ul class="menu_list">
-        <li class="menu_item"><a href="">главная</a></li>
-        <li class="menu_item"><a href="">посмотреть лоты</a></li>
-        <li class="menu_item"><a href="">об аукционе</a></li>
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <li class="footer__menu-list-item"><a href="#" class="footer__menu-link footer__menu-link_active text_decoration">главная</a></li>
+          <li class="footer__menu-list-item"><a href="#" class="footer__menu-link">посмотреть лоты</a></li>
+          <li class="footer__menu-list-item"><a href="#" class="footer__menu-link">об аукционе</a></li>
       </ul>
+      </nav>
+    <div>
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item"><a href="#" class="footer__social-link"><img src="./images/pinterest.svg" alt="логотип пинтерест" class="footer__social-icon"></a></li>
+        <li class="footer__social-list-item"><a href="#" class="footer__social-link"><img src="./images/vk.svg" alt="логотип вк" class="footer__social-icon"></a></li>
+        <li class="footer__social-list-item"><a href="#" class="footer__social-link"><img src="./images/yt.svg" alt="логотип ютуб" class="footer__social-icon"></a></li>
+      </ul>
+    </div>
     </footer>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-<!--
-  header
-  main
-  nav
-  font-family: Raleway;
-font-weight: 400;
-font-style: Regular;
-font-size: 18px;
-line-height: 100%;
-letter-spacing: 0%;
-
-  adress
-  font-family: Raleway;
-font-weight: 400;
-font-style: Regular;
-font-size: 18px;
-line-height: 24.3px;
-letter-spacing: 0%;
-
-  tittle
-font-family: Raleway;
-font-weight: 700;
-font-style: Bold;
-font-size: 100px;
-leading-trim: NONE;
-line-height: 114.99999999999999%;
-letter-spacing: 30%;
-text-transform: uppercase;
-
-  subline
-  font-family: Raleway;
-font-weight: 400;
-font-style: Regular;
-font-size: 22px;
-line-height: 28px;
-letter-spacing: 90%;
-text-transform: uppercase;
-
-  botton
-  font-family: Raleway;
-font-weight: 500;
-font-style: Medium;
-font-size: 22px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-text-transform: uppercase;
-
-2 div
-tittle
-font-family: Raleway;
-font-weight: 700;
-font-style: Bold;
-font-size: 40px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: uppercase;
-
-
--->
