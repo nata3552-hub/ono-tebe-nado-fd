@@ -13,13 +13,13 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li><a href="#" class="text_decoration">главная</a></li>
-          <li><a href="#">посмотреть лоты</a></li>
-          <li><a href="#">об аукционе</a></li>
+          <li><a href="#" class="header__link link-active">главная</a></li>
+          <li><a href="#" class="header__link">посмотреть лоты</a></li>
+          <li><a href="#" class="header__link">об аукционе</a></li>
         </ul>
       </nav>
 
-      <a href="#" class="header__logo">
+      <a class="header__logo">
         <img
           src="./images/logo-black.svg"
           alt="черный логотип оно тебе надо"
@@ -27,10 +27,10 @@
         />
       </a>
       <address class="address">
-        <div class="header__address">
-          <a href="tel:+99995555555" class="address_tel">+9 999 555 5555</a>
-          <a href="mailto:info@sobaka.ge" class="adress_mail">info@sobaka.ge</a>
-          <a href="#" class="address_link text_decoration"
+        <div class="contact-info header__address">
+          <a href="tel:+99995555555" class="address__link">+9 999 555 5555</a>
+          <a href="mailto:info@sobaka.ge" class="address__link">info@sobaka.ge</a>
+          <a href="#" class="address_link link-active"
             >наб. Принсенграхт 263- 265, Амстердам</a
           >
         </div>
@@ -40,9 +40,9 @@
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover_tittle aligned-text letter-spacing-extended">
-          <span class="aligned-text_left">ОНО</span>
-          <span class="aligned-text_center">ТЕБЕ</span>
-          <span class="aligned-text_right">НАДО</span>
+          <span class="aligned-text_left">оно</span>
+          <span class="aligned-text_center">тебе</span>
+          <span class="aligned-text_right">надо</span>
         </h1>
         <div class="cover_description">
           <p class="cover__description-text">
@@ -105,7 +105,7 @@
           </li>
         </ul>
         <a href="#" class="more">
-          <div class="more__text">посмотреть больше</div>
+          <span class="more__text">посмотреть больше</span>
         </a>
       </section>
       <section class="about">
@@ -117,7 +117,7 @@
               class="about__logo-image"
             />
           </div>
-          <div>
+          <article>
             <h2 class="about__title">Об аукционе</h2>
             <div class="about__text">
               <p>
@@ -136,18 +136,18 @@
                 вещи не верил никто, продолжали верить их создатели. И сейчас
                 эти лоты стали культовыми.
               </p>
-            </div>
+            </article>
           </div>
         </div>
       </section>
     </main>
     <footer class="footer">
       <address class="address">
-        <div class="footer__address">
-          <a href="tel:+99995555555" class="address_tel">+9 999 555 5555</a>
-          <a href="mailto:info@sobaka.ge" class="adress_mail">info@sobaka.ge</a>
-          <a href="#" class="address_link text_decoration"
-            >наб. Принсенграхт 263- 265, Амстердам</a
+        <div class="contact-info footer__address">
+          <a href="tel:+99995555555" class="address__link">+9 999 555 5555</a>
+          <a href="mailto:info@sobaka.ge" class="address__link">info@sobaka.ge</a>
+          <a href="#" class="address_link link-active"
+            >наб. Принсенграхт 263-265, Амстердам</a
           >
         </div>
       </address>
@@ -156,7 +156,7 @@
           <li class="footer__menu-list-item">
             <a
               href="#"
-              class="footer__menu-link footer__menu-link_active text_decoration"
+              class="footer__menu-link link-active"
               >главная</a
             >
           </li>
@@ -168,10 +168,9 @@
           </li>
         </ul>
       </nav>
-      <div>
         <ul class="footer__social-list">
           <li class="footer__social-list-item">
-            <a href="#" class="footer__social-link"
+            <a href="#" target="_blank" class="footer__social-link"
               ><img
                 src="./images/pinterest.svg"
                 alt="логотип пинтерест"
@@ -179,7 +178,7 @@
             /></a>
           </li>
           <li class="footer__social-list-item">
-            <a href="#" class="footer__social-link"
+            <a href="#" target="_blank" class="footer__social-link"
               ><img
                 src="./images/vk.svg"
                 alt="логотип вк"
@@ -187,7 +186,7 @@
             /></a>
           </li>
           <li class="footer__social-list-item">
-            <a href="#" class="footer__social-link"
+            <a href="#" target="_blank" class="footer__social-link"
               ><img
                 src="./images/yt.svg"
                 alt="логотип ютуб"
@@ -195,7 +194,6 @@
             /></a>
           </li>
         </ul>
-      </div>
     </footer>
   </body>
 </html>
